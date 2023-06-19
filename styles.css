@@ -1,0 +1,154 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background: #333;
+  color: #fff;
+  padding: 20px;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+section {
+  padding: 50px 0;
+  text-align: center;
+}
+
+#banner {
+  background: url('banner.jpg') no-repeat center;
+  background-size: cover;
+  color: #fff;
+}
+
+#banner h1 {
+  font-size: 40px;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+#about {
+  background: #f1f1f1;
+}
+
+#about h2 {
+  color: #333;
+}
+
+#services ul {
+  list-style: none;
+  padding: 0;
+}
+
+#services li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+#contact input,
+#contact textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+#contact button {
+  background: #333;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+footer {
+  background: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+footer ul {
+  list-style: none;
+  padding: 0;
+}
+
+footer ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+footer ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Responsive Styles */
+
+@media screen and (max-width: 768px) {
+  header {
+    padding: 10px;
+  }
+  
+  nav ul li {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  section {
+    padding: 30px 0;
+  }
+  
+  #banner h1 {
+    font-size: 30px;
+  }
+  
+  .container {
+    max-width: 600px;
+  }
+  
+  #services li {
+    display: block;
+    margin-bottom: 10px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  #banner h1 {
+    font-size: 24px;
+  }
+  
+  .container {
+    max-width: 400px;
+  }
+}
+.colorBox {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  border: 1px solid #ccc;
+  text-align: center;
+  line-height: 100px;
+  font-weight: bold;
+}
+
